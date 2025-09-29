@@ -1,0 +1,19 @@
+/* Basic styling for the portfolio */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    text-align: center;
+    font-size: 18px;
+}

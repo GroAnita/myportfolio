@@ -1,19 +1,125 @@
 /* Basic styling for the portfolio */
+
+.kalnia-font {
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #4D4D4D;
+    
 }
 
-h1 {
-    color: #333;
-    text-align: center;
+.content-home {
+    background-color: #CE0089 ;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.home-container {
+    width: 1200px;
+    height: 716px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.home-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("images/bgeyes2.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.05;
+    z-index: 1;
+}
+.home-container__topbar {
+    width: 1200px;
     margin-bottom: 20px;
+    padding-top: 35px;
+   
+}
+.home-container__topbar h1 {
+    font-family : 'Kalnia', serif;
+    color: #fcfcfc;
+    text-align: center;
+    font-size: 5rem;
+    margin: auto; 
+    font-weight: 400;
 }
 
-p {
-    color: #666;
+.home-container__topbar p {
+    color: #000000;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.25rem;
+    margin-top: -10px;
+}
+hr {
+    max-width: 1000px;
+    margin: 40px auto;
+    border: 1px solid #fcfcfc;
+}
+
+            
+.home-container__boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Kalnia', serif;
+    font-weight: 200;
+    
+}
+
+.home-container__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height: 225px;
+    background-color: #d9d9d9;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    color: #CE0089;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s ease-in-out;
+    z-index: 2;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+.home-container__box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s, border-radius 0.25s ease-in-out;
+}
+
+.home-container__box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #CE0089;
+    font-family: 'Kalnia', serif;
+    font-weight: 400;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #CE0089;
+    color: #fff;
+    margin-top: 40px;
 }

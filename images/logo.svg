@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#CE0089" stroke="#fcfcfc" stroke-width="3"/>
+  
+  <!-- Geometric design elements representing code brackets and frontend development -->
+  <path d="M 40 100 L 60 80 L 60 120 Z" fill="#fcfcfc" opacity="0.8"/>
+  <path d="M 160 100 L 140 80 L 140 120 Z" fill="#fcfcfc" opacity="0.8"/>
+  
+  <!-- Initials GAB in a modern, bold style -->
+  <text x="100" y="115" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#fcfcfc" text-anchor="middle">GAB</text>
+  
+  <!-- Small dot accent representing precision and attention to detail -->
+  <circle cx="100" cy="140" r="4" fill="#fcfcfc"/>
+</svg>

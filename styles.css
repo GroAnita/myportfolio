@@ -48,6 +48,20 @@ body {
     padding-top: 35px;
    
 }
+
+.logo {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+    position: relative;
+    z-index: 2;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
 .home-container__topbar h1 {
     font-family : 'Kalnia', serif;
     color: #fcfcfc;

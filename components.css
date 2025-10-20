@@ -1,0 +1,100 @@
+/* 🍔 HAMBURGER MENU STYLES 🍔 */
+
+
+.fa-solid {
+    color: #d8d4d7;
+    font-size: 3rem;
+}
+.fa-solid:hover {
+    color: #eb8703;
+    transform: scale(1.2);
+}
+.hamburger-menu {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    cursor: pointer !important;
+    z-index: 1000;
+    padding: 10px;
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}
+
+.nav-overlay {
+    height: 90vh;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    z-index: 1999;
+    background-color: rgba(77, 77, 77, 0.95);
+    overflow-x: hidden;
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #d8d4d7;
+}
+
+.nav-overlay.open {
+    transform: translateX(0);
+    left: 300px;
+}
+
+.nav-overlay a {
+    padding: 18px;
+    text-decoration: none;
+    font-size: 3rem;
+    color: #ffffff;
+    transition: 0.3s;
+    width: 400px;   
+    text-align: start;
+
+}
+
+.nav-overlay__link {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.nav-overlay__close-button {
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    font-size: 3rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-overlay__links{
+    height: 80vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+    
+
+.content-work {
+    position: relative;  /* Creates positioning context */
+}
+
+
+
+
+
+
+
+/* 📱 MOBILE NAVIGATION 📱 */

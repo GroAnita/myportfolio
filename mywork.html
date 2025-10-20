@@ -6,13 +6,20 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
+         <link rel="stylesheet" href="components.css">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="mywork.css">
+       
         <title>See my work</title>
 </head>
     <body>
+      
         <div class="content-work">
+               <button class="hamburger-menu">
+               <i class="fa-solid fa-bars"></i>
+            </button>
             <div class="content-work__topbar">
             <h1>My Work</h1>
             <p>Here you can see some of the projects I've worked on.</p>
@@ -77,6 +84,17 @@
 
              
         </div>
-
+         
+          <div class="nav-overlay" id="navOverlay">
+                <button class="nav-overlay__close-button" id="closeNavBtn">&times;</button>
+                <nav class="nav-overlay__links">
+                <a href="index.html" class="nav-overlay__link">Home</a>
+                <a href="aboutme.html" class="nav-overlay__link">About Me</a>
+                <a href="mywork.html" class="nav-overlay__link">My Work</a>
+                <a href="contact.html" class="nav-overlay__link">Contact Me</a>
+                </nav>
+            </div>
+            <script src="components.js"></script>
+            <script src="mywork.js"></script>
     </body>
 </html>

@@ -15,14 +15,16 @@
         <title>See my work</title>
 </head>
     <body>
-      
+        <!-- Navigation overlay will be inserted here by nav-component.js -->
         <div class="content-work">
-               <button class="hamburger-menu">
-               <i class="fa-solid fa-bars"></i>
-            </button>
-            <div class="content-work__topbar">
-            <h1>My Work</h1>
-            <p>Here you can see some of the projects I've worked on.</p>
+            <div class="home-container__topbar">
+                <div class="home-container__logo"><img src="images/GABlogocat.svg" alt="Logo"></div>
+                <div class="home-container__center">
+                    <h1>My Work</h1>
+                    <p>Here you can see some of the projects I've worked on.</p>   
+                </div>
+                <div class="home-container__right"><!-- Hamburger menu added by nav-component.js -->
+                </div>
             </div>
             <hr>
             <div class="content-work__projects">
@@ -96,5 +98,6 @@
             </div>
             <script src="components.js"></script>
             <script src="mywork.js"></script>
+            <script src="nav-component.js"></script>
     </body>
 </html>

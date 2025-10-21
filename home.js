@@ -8,3 +8,6 @@ linkBox3.onclick = () => window.location.href = 'mywork.html';
 
 linkBox4.onclick = () => window.location.href = 'contactme.html';
     
+linkBox1.onclick = () => window.location.href = 'whoamI.html';
+
+linkBox2.onclick = () => window.location.href = 'whatcanIdo.html';

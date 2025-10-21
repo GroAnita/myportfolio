@@ -12,18 +12,21 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="mywork.css">
         <link rel="stylesheet" href="contactme.css">
+        <link rel="stylesheet" href="components.css">
 
         <title>Contact Me</title>
 </head>
     <body>
       
-        <div class="content-work">
-               <button class="hamburger-menu">
-               <i class="fa-solid fa-bars"></i>
-            </button>
-            <div class="content-work__topbar">
-            <h1>Contact Me</h1>
-            <p>If you would like to get in touch, feel free to reach out!</p>
+        <div class="content-home">
+             <div class="home-container__topbar">
+                <div class="home-container__logo"><img src="images/GABlogocat.svg" alt="Logo"></div>
+                <div class="home-container__center">
+                <h1>Gro Anita Bråthen</h1>
+                <p>FrontEnd Developer</p>   
+            </div>
+                <div class="home-container__right"> <!-- Hamburger menu added by nav-component.js -->
+                </div>
             </div>
             <hr>
             <div class="content-contactme__form">
@@ -53,16 +56,9 @@
             <footer>
                 <p>© 2025 Gro Anita Bråthen</p>
             </footer>
-          <div class="nav-overlay" id="navOverlay">
-                <button class="nav-overlay__close-button" id="closeNavBtn">&times;</button>
-                <nav class="nav-overlay__links">
-                <a href="index.html" class="nav-overlay__link">Home</a>
-                <a href="aboutme.html" class="nav-overlay__link">About Me</a>
-                <a href="mywork.html" class="nav-overlay__link">My Work</a>
-                <a href="contact.html" class="nav-overlay__link">Contact Me</a>
-                </nav>
-            </div>
-            <script src="components.js"></script>
+   
+          
             <script src="mywork.js"></script>
+            <script src="nav-component.js"></script>
     </body>
 </html>

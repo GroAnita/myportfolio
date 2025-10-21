@@ -5,4 +5,6 @@ const linkBox3 = document.querySelector('.home-container__box--3')
 const linkBox4 = document.querySelector('.home-container__box--4')  
 
 linkBox3.onclick = () => window.location.href = 'mywork.html';
+
+linkBox4.onclick = () => window.location.href = 'contactme.html';
     

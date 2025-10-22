@@ -10,7 +10,7 @@ function createNavOverlay() {
             </nav>
             <hr class="nav-overlay__divider">
             <div class="nav-overlay__div">
-                <div class="nav-overlay__logo"><img src="images/GABlogocatwhitetext.svg" alt="Logo for Gro Anita Bråthen, a black cat with text: PawsitiveVibesByGro"></div>
+                <div class="nav-overlay__logo"><img src="images/GABlogocatwhitetext.svg" alt=""></div>
                 <div class="nav-overlay__some"> 
                     <a href="https://www.facebook.com/Vampyrellan" target="_blank" rel="noopener noreferrer" aria-label="Visit my Facebook page">
                         <i class="fa-brands fa-facebook-f"></i>

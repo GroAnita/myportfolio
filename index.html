@@ -3,58 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="components.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>My Portfolio Home</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    <div class="content-home">
-         <div class="home-container__topbar">
-                <div class="home-container__logo"><img src="images/GABlogocat.svg" alt="Logo"></div>
-                <div class="home-container__center">
-                <h1>Gro Anita Bråthen</h1>
-                <p>FrontEnd Developer</p>   
-            </div>
-                <div class="home-container__right"><!-- Hamburger menu added by nav-component.js -->
-                </div>
-            </div>
-        <div class="home-container">
-           
-            <hr>
-            <div class="home-container__boxes">
-                <div class="home-container__box home-container__box--1">
-                    <h2>Who am I</h2>
-                  
-                </div>
-                <div class="home-container__box home-container__box--2">
-                    <h2>What can I do</h2>
-                   
-                </div>
-                <div class="home-container__box home-container__box--3">
-                    <h2>See my work</h2>
-               
-                </div>
-                <div class="home-container__box home-container__box--4">
-                    <h2>Contact Me</h2>
-                 
-                </div>
-            </div>
-            
-         
-        <hr>
-        <footer>
-            <p>© 2024 Gro Anita Bråthen</p>
-        </footer>
-    </div>
-    </div>
-        <script src="components.js"></script>
-        <script src="home.js"></script>
-        <script src="nav-component.js"></script>
-        
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="app"></div>
+    </main>
+    <script type="module" src="js/app.js"></script>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
 </body>
 </html>
